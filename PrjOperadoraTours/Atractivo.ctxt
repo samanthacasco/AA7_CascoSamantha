@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Oct 25 19:11:42 CST 2026
+comment0.target=Atractivo
+comment0.text=\r\n Representa un atractivo tur\u00EDstico. Existe de forma independiente de los\r\n tours y puede formar parte del recorrido de varios tours a la vez.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pCodigo pNombre pMontoEntrada
+comment1.target=Atractivo(java.lang.String, java.lang.String, double)
+comment1.text=\r\n Construye un atractivo.\r\n\r\n @param pCodigo c\u00F3digo del atractivo.\r\n @param pNombre nombre del atractivo.\r\n @param pMontoEntrada monto de la entrada en colones.\r\n
+comment2.target=java.lang.String getCodigo()
+comment2.text=\r\n Consulta el c\u00F3digo del atractivo.\r\n\r\n @return el c\u00F3digo.\r\n
+comment3.target=java.lang.String getNombre()
+comment3.text=\r\n Consulta el nombre del atractivo.\r\n\r\n @return el nombre.\r\n
+comment4.target=double getMontoEntrada()
+comment4.text=\r\n Consulta el monto de la entrada del atractivo.\r\n\r\n @return el monto de la entrada, en colones.\r\n
+comment5.target=java.lang.String toString()
+comment5.text=\r\n Retorna el estado del atractivo\: c\u00F3digo, nombre y monto de la entrada.\r\n\r\n @return cadena con el estado del atractivo.\r\n
+numComments=6

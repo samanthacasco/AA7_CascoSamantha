@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 25 19:09:07 CST 2026
+comment0.target=CasetaPeaje
+comment1.params=pNombreAutopista
+comment1.target=CasetaPeaje(java.lang.String)
+comment2.params=obj
+comment2.target=void cobrarPeaje(Vehiculo)
+comment2.text=\r\n Cobra el peaje al veh\u00EDculo. La caseta no pregunta el tipo\: cada\r\n veh\u00EDculo sabe cu\u00E1nto le corresponde pagar.\r\n
+comment3.target=double getTotalCobrado()
+comment4.target=int getCantidadDeCasetasPeaje()
+comment5.target=java.lang.String toString()
+numComments=6

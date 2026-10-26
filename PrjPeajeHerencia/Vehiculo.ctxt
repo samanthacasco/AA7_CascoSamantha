@@ -1,0 +1,10 @@
+#BlueJ class context
+#Sun Oct 25 19:09:08 CST 2026
+comment0.target=Vehiculo
+comment0.text=\r\n Super clase abstracta que define lo com\u00FAn a todo veh\u00EDculo. El tipo de\r\n veh\u00EDculo ya no es un atributo de texto\: lo determina la subclase concreta\r\n con la que se instancia el objeto.\r\n
+comment1.params=pPlaca pMarca pModelo pAnnio
+comment1.target=Vehiculo(java.lang.String, java.lang.String, java.lang.String, int)
+comment2.target=double calcularMontoPeaje()
+comment2.text=Monto de peaje que le corresponde pagar al veh\u00EDculo, seg\u00FAn su tipo.
+comment3.target=java.lang.String toString()
+numComments=4

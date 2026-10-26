@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sun Oct 25 19:11:42 CST 2026
+comment0.target=Cliente
+comment0.text=\r\n Representa a una persona cliente que reserva tours. Su condici\u00F3n\r\n (nacional o extranjero) determina si recibe descuento en una reserva.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pNombre pCondicion
+comment1.target=Cliente(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye una persona cliente.\r\n\r\n @param pNombre nombre de la persona cliente.\r\n @param pCondicion "nacional" o "extranjero".\r\n
+comment2.target=java.lang.String getNombre()
+comment2.text=\r\n Consulta el nombre de la persona cliente.\r\n\r\n @return el nombre.\r\n
+comment3.target=java.lang.String getCondicion()
+comment3.text=\r\n Consulta la condici\u00F3n de la persona cliente.\r\n\r\n @return CONDICION_NACIONAL o CONDICION_EXTRANJERO.\r\n
+comment4.target=boolean esNacional()
+comment4.text=\r\n Indica si la persona cliente es de condici\u00F3n nacional.\r\n\r\n @return true si es nacional, false si es extranjera.\r\n
+comment5.params=pCondicion
+comment5.target=java.lang.String normalizarCondicion(java.lang.String)
+comment5.text=\r\n Convierte la condici\u00F3n recibida en una de las dos condiciones v\u00E1lidas.\r\n Cualquier valor distinto de "nacional" se registra como extranjero.\r\n\r\n @param pCondicion condici\u00F3n recibida.\r\n @return CONDICION_NACIONAL o CONDICION_EXTRANJERO.\r\n
+comment6.target=java.lang.String toString()
+comment6.text=\r\n Retorna el estado de la persona cliente\: nombre y condici\u00F3n.\r\n\r\n @return cadena con el estado del cliente.\r\n
+numComments=7

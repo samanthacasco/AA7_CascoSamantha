@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sun Oct 25 19:11:42 CST 2026
+comment0.target=Reserva
+comment0.text=\r\n Representa una reserva de un tour. Es una PARTE del tour (composici\u00F3n)\:\r\n solo el tour la construye, no se comparte con otro tour y ning\u00FAn objeto\r\n externo obtiene una referencia a ella. No guarda referencia a la persona\r\n cliente, \u00FAnicamente su nombre.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pNumero pNombreCliente pCantidadPersonas pMonto
+comment1.target=Reserva(int, java.lang.String, int, double)
+comment1.text=\r\n Construye una reserva. Solo la invoca la clase Tour.\r\n\r\n @param pNumero n\u00FAmero consecutivo dentro del tour.\r\n @param pNombreCliente nombre de la persona cliente.\r\n @param pCantidadPersonas cantidad de personas incluidas.\r\n @param pMonto monto de la reserva, en colones.\r\n
+comment2.target=int getCantidadPersonas()
+comment2.text=\r\n Consulta la cantidad de personas incluidas en la reserva.\r\n\r\n @return la cantidad de personas.\r\n
+comment3.target=double getMonto()
+comment3.text=\r\n Consulta el monto de la reserva.\r\n\r\n @return el monto, en colones.\r\n
+comment4.target=java.lang.String toString()
+comment4.text=\r\n Retorna el estado de la reserva\: n\u00FAmero, cliente, cantidad de personas y monto.\r\n\r\n @return cadena con el estado de la reserva.\r\n
+numComments=5

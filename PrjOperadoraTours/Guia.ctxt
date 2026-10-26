@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 25 19:11:42 CST 2026
+comment0.target=Guia
+comment0.text=\r\n Representa a una persona gu\u00EDa que puede dirigir uno o varios tours.\r\n La gu\u00EDa no conoce los tours que dirige.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pIdentificacion pNombreCompleto
+comment1.target=Guia(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye una persona gu\u00EDa.\r\n\r\n @param pIdentificacion n\u00FAmero de identificaci\u00F3n.\r\n @param pNombreCompleto nombre completo.\r\n
+comment2.target=java.lang.String getNombreCompleto()
+comment2.text=\r\n Consulta el nombre completo de la persona gu\u00EDa.\r\n\r\n @return el nombre completo.\r\n
+comment3.target=java.lang.String toString()
+comment3.text=\r\n Retorna el estado de la persona gu\u00EDa\: identificaci\u00F3n y nombre completo.\r\n\r\n @return cadena con el estado de la gu\u00EDa.\r\n
+numComments=4

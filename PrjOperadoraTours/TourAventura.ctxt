@@ -1,0 +1,18 @@
+#BlueJ class context
+#Sun Oct 25 19:11:42 CST 2026
+comment0.target=TourAventura
+comment0.text=\r\n Tour de aventura\: su precio por persona es el precio base m\u00E1s un recargo\r\n por seguro de aventura. Tiene un nivel de dificultad (bajo, medio o alto)\r\n que por omisi\u00F3n es medio.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pNombre pPrecioBase pCupoMaximo pGuia pNivelDificultad
+comment1.target=TourAventura(java.lang.String, double, int, Guia, java.lang.String)
+comment1.text=\r\n Construye un tour de aventura con el nivel de dificultad indicado.\r\n\r\n @param pNombre nombre del tour.\r\n @param pPrecioBase precio base por persona, en colones.\r\n @param pCupoMaximo cupo m\u00E1ximo de personas.\r\n @param pGuia persona gu\u00EDa que dirige el tour.\r\n @param pNivelDificultad "bajo", "medio" o "alto".\r\n
+comment2.params=pNombre pPrecioBase pCupoMaximo pGuia
+comment2.target=TourAventura(java.lang.String, double, int, Guia)
+comment2.text=\r\n Construye un tour de aventura con el nivel de dificultad por omisi\u00F3n (medio).\r\n\r\n @param pNombre nombre del tour.\r\n @param pPrecioBase precio base por persona, en colones.\r\n @param pCupoMaximo cupo m\u00E1ximo de personas.\r\n @param pGuia persona gu\u00EDa que dirige el tour.\r\n
+comment3.target=double calcularPrecioPorPersona()
+comment3.text=\r\n Precio base m\u00E1s el recargo por seguro de aventura.\r\n\r\n @return el precio por persona, en colones.\r\n
+comment4.params=pNivel
+comment4.target=java.lang.String normalizarNivel(java.lang.String)
+comment4.text=\r\n Convierte el nivel recibido en uno de los tres niveles v\u00E1lidos. Un nivel\r\n desconocido se registra como NIVEL_POR_OMISION.\r\n\r\n @param pNivel nivel recibido.\r\n @return NIVEL_BAJO, NIVEL_MEDIO o NIVEL_ALTO.\r\n
+comment5.target=java.lang.String toString()
+comment5.text=\r\n Retorna el estado completo del tour de aventura\: lo com\u00FAn m\u00E1s su tipo y\r\n nivel de dificultad.\r\n\r\n @return cadena con el estado del tour.\r\n
+numComments=6

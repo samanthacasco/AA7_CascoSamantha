@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 25 19:11:42 CST 2026
+comment0.target=TourCultural
+comment0.text=\r\n Tour cultural\: su precio por persona es el precio base m\u00E1s la suma de las\r\n entradas de todos los atractivos del recorrido.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pNombre pPrecioBase pCupoMaximo pGuia pIdioma
+comment1.target=TourCultural(java.lang.String, double, int, Guia, java.lang.String)
+comment1.text=\r\n Construye un tour cultural.\r\n\r\n @param pNombre nombre del tour.\r\n @param pPrecioBase precio base por persona, en colones.\r\n @param pCupoMaximo cupo m\u00E1ximo de personas.\r\n @param pGuia persona gu\u00EDa que dirige el tour.\r\n @param pIdioma idioma del recorrido.\r\n
+comment2.target=double calcularPrecioPorPersona()
+comment2.text=\r\n Precio base m\u00E1s la suma de las entradas de los atractivos del recorrido.\r\n\r\n @return el precio por persona, en colones.\r\n
+comment3.target=java.lang.String toString()
+comment3.text=\r\n Retorna el estado completo del tour cultural\: lo com\u00FAn m\u00E1s su tipo e idioma.\r\n\r\n @return cadena con el estado del tour.\r\n
+numComments=4

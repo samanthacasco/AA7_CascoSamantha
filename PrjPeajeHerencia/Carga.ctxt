@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Oct 25 19:09:07 CST 2026
+comment0.target=Carga
+comment1.params=pPlaca pMarca pModelo pAnnio
+comment1.target=Carga(java.lang.String, java.lang.String, java.lang.String, int)
+comment2.target=double calcularMontoPeaje()
+comment3.target=java.lang.String toString()
+numComments=4
